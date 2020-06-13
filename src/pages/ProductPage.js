@@ -1,8 +1,9 @@
+// src/pages/LoginPage.js
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import { login } from "../store/login/actions";
 
-export default function UserLogin() {
+export default function LoginPage() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const dispatch = useDispatch();

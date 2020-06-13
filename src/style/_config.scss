@@ -1,0 +1,26 @@
+// src/style/_config.scss
+@import "~bootstrap";
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&family=Ubuntu:wght@300;700&display=swap");
+
+$headings-font-family: 'Ubuntu', sans-serif;
+$headings-font-weight: 700;
+
+$font-family-base: 'Sacramento', cursive;
+$base-font-weight: 400;
+
+$primary: #ffd000;
+$secondary: #b60000;
+$tertiary: #1300bd;
+$black: #272727;
+$white: #ffffff;
+$text-color: #272727;
+
+$bordercolor: #272727;
+
+$vertical-space: 0.5rem;
+
+$spacer: 0.5rem;
+
+$grid-gutter-width: 0.5rem;
+$grid-columns: 12;
+
